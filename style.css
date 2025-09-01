@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    display: block;
+}
+
+
+.titulo {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.destaque {
+    background-color: yellow;
+}
+
+#div {
+    background-color: antiquewhite;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Web Design - Aula 04</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <table border="1" class="main">
+            <tr>
+                <td>
+                    <h2 class="titulo">Imagens</h2>
+                    <img src="img/facens.jfif" alt="Logo da facens" width="100"/><br>
+                    <img src="img/github.png" alt="Logo do GitHub" width="100"/><br>
+                    <img src="img/lm.png" alt="Logo do Linux Mint" width="100"/>
+                </td>
+            <td>
+                <h2 class="titulo">Vídeo</h2>
+                <video src="video.mp4" controls width="350" poster="img/facens.jfif"></video>
+            </td>
+            <td>
+                <h2 class="titulo">Áudio</h2>
+                <audio controls>
+                    <source src="musica.mp3" type="audio/mpeg">
+                    <source src="musica.ogg" type="audio/ogg">
+                    <!-- Mensagem exibida caso o navegador não suporte áudio -->
+                    <p>Seu navegador não suporta áudio</p>
+                    </audio>
+            </td>   
+                    <!-- Seção contendo o formulário -->
+                    <td>
+                        <form>
+                            <!-- Título do formulário -->
+                            <h2 class="titulo">Formulário</h2>
+                            
+                            <!-- Campo para inserir o nome -->
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome"><br><br>
+                            
+                            <!-- Campo para inserir o e-mail -->
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email"><br><br>
+                            
+                            <!-- Campo para inserir a mensagem -->
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem"></textarea><br><br>
+                            
+                            <!-- Botão para enviar o formulário -->
+                            <input type="submit" value="Enviar">
+                        </form>
+                    </td>
+                    </tr>
+                    <tr>
+                    <!-- Seção contendo links -->
+                    <td>
+                        <!-- Título da seção -->
+                        <h2 class="titulo">Links</h2>
+                        
+                        <!-- Link para o Google -->
+                        <a href="https://www.google.com">Link pro google</a><br>
+                        
+                        <!-- Link com imagem para o site da Facens -->
+                        <a href="https://www.facens.br">
+                            <img src="img/facens.jfif" alt="site da facens" width="100">
+                        </a><br>
+                        
+                        <!-- Link para abrir o site da Facens em uma nova guia -->
+                        <a href="https://www.facens.br" target="_blank">Abrir link da facens em uma nova guia</a>
+                    </td>
+                    
+                    <!-- Seção contendo listas -->
+                    <td>
+                        <!-- Título da seção -->
+                        <h2 class="titulo">Listas</h2>
+                        
+                        <!-- Lista ordenada -->
+                        <ol>
+                            <li>Primeiro item</li>
+                            <li>Segundo item</li>
+                        </ol>
+                        
+                        <!-- Lista não ordenada -->
+                        <ul>
+                            <li>Item A</li>
+                            <li>Item B</li>
+                        </ul>
+                    </td>
+            <td>
+                <!--Exemplo de tabela-->
+                <h2 class="titulo">Tabela</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <td>Coluna 1</td>
+                            <td>Coluna 2</td>
+                            <td>Coluna 3</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Linha 1</td>
+                            <td>Dado 1</td>
+                            <td>Dado 2</td>
+                        </tr>
+                        <tr>
+                            <td>Linha 2</td>
+                            <td>Dado 3</td>
+                            <td>Dado 4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+            <td>
+                <h2 class="titulo">Identificadores e Classes</h2>
+                <!--parágrafos com identificadores e classes-->
+                <p id="introducao">Parágrafo com id.</p>
+                <p class="destaque">Parágrafo com a classe "destaque".</p>
+                <div id="div">
+                    <!--Contêiner com definições próprias-->
+                    <h1>Div Contêiner</h1>
+                    <p>Parágrafo dentro do contêiner</p>
+                </div>
+            </td>
+        </table>
+    </body>
+    <footer>
+        <p>2025 - Web Design: Aula 04</p>
+    </footer>
+</html>
